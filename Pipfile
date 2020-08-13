@@ -12,6 +12,8 @@ scipy = "*"
 matplotlib = "*"
 seaborn = "*"
 jupyter = "*"
+flake8 = "*"
+pycodestyle-magic = "*"
 
 [requires]
 python_version = "3.8"
