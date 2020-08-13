@@ -138,7 +138,9 @@ dmypy.json
 cython_debug/
 
 # data science
-/data
+data/**/*
+# .gitkeep is an arbitray file that enables us to keep folder structure while ignoring other files.
+!data/.gitkeep
 *.csv
 *.jpeg
 *.jpg
