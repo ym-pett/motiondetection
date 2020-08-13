@@ -137,6 +137,9 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# Mac files
+.DS_Store
+
 # data science
 /data
 *.csv
