@@ -22,6 +22,12 @@ Activating the virtual environment can be done by executing:
 pipenv shell
 ```
 
+or
+
+```
+. .venv/bin/activate
+```
+
 ### Data
 
 The data can be download from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Activity+recognition+with+healthy+older+people+using+a+batteryless+wearable+sensor#), and should be placed in the `data` folder at the root of the project.
