@@ -141,7 +141,11 @@ cython_debug/
 .DS_Store
 
 # data science
-/data
+
+# ** makes it recursive, * matches all files
+data/**/*
+# .gitkeep is an arbitray file that enables us to keep folder structure while ignoring other files.
+!data/.gitkeep
 *.csv
 *.jpeg
 *.jpg
