@@ -23,6 +23,12 @@ Activating the virtual environment can be done by executing:
 pipenv shell
 ```
 
+or
+
+```
+. .venv/bin/activate
+```
+
 ### Data
 
 The data can be automatically downloaded using the following command:
