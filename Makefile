@@ -4,8 +4,11 @@ DATA_DIR=data
 DATA_URI=https://archive.ics.uci.edu/ml/machine-learning-databases/00427/Datasets_Healthy_Older_People.zip
 DATA_DEST=raw
 
+# := means evaluate, [] are a bit like if, so if curl isn't defined it's false and it will ignore echo curl and go to wget, || equivalent-ish to OR
+# so translates to 'if curl is installed, use it, else use wget'
 DOWNLOAD:=$(shell [ `command -v curl` ] && echo curl || echo wget)
 
+# curl and wget use different output flags..
 ifeq ($(DOWNLOAD), curl)
 	DOWNLOAD_FLAG=-o
 else
