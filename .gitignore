@@ -153,3 +153,4 @@ data/**/*
 *.gif
 
 notebooks/*.html
+notebooks/*.json
