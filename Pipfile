@@ -12,6 +12,7 @@ scipy = "*"
 matplotlib = "*"
 seaborn = "*"
 jupyter = "*"
+flexx = "*"
 
 [requires]
 python_version = "3.8"
