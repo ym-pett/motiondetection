@@ -1,8 +1,8 @@
 PROJECT TODOS, NOT PROPERLY ORDERED:
 
-1) work through Mark's interpolate code and make sure i get everything
+1) work through Mark's interpolate code and make sure i get everything DONE
 
-2) do a small write-up of the time-normalisation, method & rationale
+2) do a small write-up of the time-normalisation, method & rationale NO LONGER NEEDED? 
 
 3) get descriptive stats on sequences so that we can formulate a method/rationale for keeping or dropping sequences & participants. Stats I can think of so far:
 
