@@ -1,0 +1,21 @@
+PROJECT TODOS, NOT PROPERLY ORDERED:
+
+1) work through Mark's interpolate code and make sure i get everything
+
+2) do a small write-up of the time-normalisation, method & rationale
+
+3) get descriptive stats on sequences so that we can formulate a method/rationale for keeping or dropping sequences & participants. Stats I can think of so far:
+
+	- descriptives for lengths for all types of sequences (time)
+	- descriptives for number of datapoints for each type of sequence - THINK OF SOME NORMALISATION THAT TAKES ACCOUNT OF LENGTH.. MAYBE JUST SAMPLING FREQUENCY??
+	- for each type of sequence, numbers for which we have less than ?? datapoints, will depend on above. PROBABLY MOST USEFUL WHEN TAKING A NORMALISED MEASURE.
+	
+	
+AT A LATER STAGE:
+	
+	
+5) start modelling, so much we could compare!! simple (e.g LSTM only) vs complex (LSTM & CNN), adding layers, diff activation functions (careful motivate this!!)
+
+but also more simply, including vs excluding lossy sequences, using time-normalised vs sequences of different lengths.. I'm particularly interested in this, whether it could help real-time processing, in fact how would it be applied in real-time??
+
+
