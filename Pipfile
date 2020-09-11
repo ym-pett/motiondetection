@@ -12,8 +12,9 @@ scipy = "*"
 matplotlib = "*"
 seaborn = "*"
 jupyter = "*"
-flake8 = "*"
-pycodestyle-magic = "*"
+plotly = "*"
+dash = "*"
+jupyter-dash = "*"
 
 [requires]
 python_version = "3.8"

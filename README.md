@@ -2,8 +2,7 @@
 
 This repository contains (or at least will contain) some experiments
 on data collected from using wearable
-sensor data collected for recognition of activities in clinical environments,
-available from from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Activity+recognition+with+healthy+older+people+using+a+batteryless+wearable+sensor#).
+sensor data collected for recognition of activities in clinical environments.
 
 ## Development
 
@@ -31,9 +30,4 @@ or
 
 ### Data
 
-The data can be automatically downloaded using the following command:
-
-```
-make data
-```
-
+The data can be download from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Activity+recognition+with+healthy+older+people+using+a+batteryless+wearable+sensor#), and should be placed in the `data` folder at the root of the project.
