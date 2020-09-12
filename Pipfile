@@ -15,6 +15,7 @@ jupyter = "*"
 plotly = "*"
 dash = "*"
 jupyter-dash = "*"
+tqdm = "*"
 
 [requires]
 python_version = "3.8"
