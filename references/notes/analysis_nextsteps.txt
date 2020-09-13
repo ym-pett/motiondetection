@@ -6,8 +6,13 @@ PROJECT TODOS, NOT PROPERLY ORDERED:
 
 3) get descriptive stats on sequences so that we can formulate a method/rationale for keeping or dropping sequences & participants. Stats I can think of so far:
 
-	- descriptives for lengths for all types of sequences (time)
-	- descriptives for number of datapoints for each type of sequence - THINK OF SOME NORMALISATION THAT TAKES ACCOUNT OF LENGTH.. MAYBE JUST SAMPLING FREQUENCY??
+	- descriptives for lengths for all types of sequences (time) DONE
+	- descriptives for number of datapoints for each type of sequence DONE 
+	- get sampling rate: no.samples/duration - or do we also need a measure of how regularly it's sampled, such as: 
+		t_d = timediff betw samples
+
+		mean(t_d)/1 or range(t_d)/1? 
+
 	- for each type of sequence, numbers for which we have less than ?? datapoints, will depend on above. PROBABLY MOST USEFUL WHEN TAKING A NORMALISED MEASURE.
 	
 	
