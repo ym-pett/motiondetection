@@ -13,7 +13,7 @@ PROJECT TODOS, NOT PROPERLY ORDERED:
 
 		mean(t_d)/1 or range(t_d)/1? 
 
-	- for each type of sequence, numbers for which we have less than ?? datapoints, will depend on above. PROBABLY MOST USEFUL WHEN TAKING A NORMALISED MEASURE.
+	- for each type of sequence, numbers for which we have low sampling ratios (numbers of measurements/duration). DONE 
 	
 	
 AT A LATER STAGE:
