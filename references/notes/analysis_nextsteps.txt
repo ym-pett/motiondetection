@@ -15,11 +15,16 @@ PROJECT TODOS, NOT PROPERLY ORDERED:
 
 	- for each type of sequence, numbers for which we have low sampling ratios (numbers of measurements/duration). DONE 
 	
-	
+4) consider data cleaning strategies
+	- in particular consider whether cleaning/transforming is necessary or possible if the models were to be used with live streamed data
+
+5) feature selection
+	- using accelerometer data or other derived measures described in the literature
+
 AT A LATER STAGE:
 	
 	
-5) start modelling, so much we could compare!! simple (e.g LSTM only) vs complex (LSTM & CNN), adding layers, diff activation functions (careful motivate this!!)
+6) start modelling, so much we could compare!! simple (e.g LSTM only) vs complex (LSTM & CNN), adding layers, diff activation functions (careful motivate this!!)
 
 but also more simply, including vs excluding lossy sequences, using time-normalised vs sequences of different lengths.. I'm particularly interested in this, whether it could help real-time processing, in fact how would it be applied in real-time??
 
