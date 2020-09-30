@@ -153,3 +153,4 @@ data/**/*
 *.gif
 notebooks/*.json
 notebooks/*.html
+iframe_figures/
