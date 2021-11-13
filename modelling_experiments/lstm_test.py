@@ -55,8 +55,8 @@ sensor_df = pd.concat(dfs, axis='index')
 sensor_df = sensor_df.sort_values(by=['participant', 'time'])
 
 norm_df = (sensor_df.groupby(['participant', 'activity_sequence'])
-           .apply(lambda df: interpolate_sensor_data(df, 400))
+           .apply(lambda df: interpolate_sensor_data(df, 128))
            .reset_index(drop=True))
-#print(norm_df.columns)
+print(norm_df.columns)
 
 
