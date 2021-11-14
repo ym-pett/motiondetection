@@ -1,4 +1,4 @@
-# this is a first attempt based on the code here https://tinyurl.com/ya7j9w6d
+# script for cleaning and formatting of data
 
 from pathlib import Path
 import matplotlib.pyplot as plt
