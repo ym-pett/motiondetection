@@ -31,3 +31,8 @@ or
 ### Data
 
 The data can be download from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Activity+recognition+with+healthy+older+people+using+a+batteryless+wearable+sensor#), and should be placed in the `data` folder at the root of the project.
+
+### modelling
+
+modelling is currently carried out on Colab. The script and notebook for this are in `sequence_experiments` - the folder structure within that is not the same as on Colab.
+TODO: To be structured properly once code works  
